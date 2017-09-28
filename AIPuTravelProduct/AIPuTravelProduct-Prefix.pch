@@ -1,0 +1,25 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "HUIKit.h"
+    #import "AiPuThemeUIKit.h"
+    #import "FMFunctions.h"
+    #import "UIImageView+WebCache.h"
+
+#define KMobSMSAPPKey       @"21503cb415a16"
+
+#define KMobSMSAPPSecret    @"3f78e22e716674edd5f8614ff742cda2"
+
+#endif
